@@ -1,0 +1,17 @@
+openapi: 3.0.0
+info:
+  title: test
+  version: '1.0'
+  description: this is API desc
+servers:
+  - url: 'http://localhost:3000'
+paths:
+  /users/products:
+    get:
+      summary: this is GET API
+      tags: []
+      responses: {}
+      operationId: get-users-products
+      parameters: []
+components:
+  schemas: {}
